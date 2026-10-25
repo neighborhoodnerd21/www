@@ -1,0 +1,47 @@
+#!/usr/bin/env zx
+
+var runtimeData = [];
+var cssMsgs = [];
+var logData = [];
+
+console.log(process.cwd());
+// Recursively find all .css files in and below
+// the working directory, then store the paths in an array
+const files = await $`find . -name "*.css"`.quiet();
+const cssFiles = files.stdout.trim().split("\n");
+
+// iterate through the array of .css file paths and run the
+// vnu validator on each file, storing the output in an array
+for (const i of cssFiles) {
+  const rootPath = await $`pwd`.quiet();
+  const path = `${rootPath.stdout.trim()}/${i}`;
+  const output = await $({ nothrow: true })`./devScripts/css-validator file:${path}`.quiet();
+  cssMsgs = output.stdout.trim().split("\n");
+  const checkTime = await $`date -Iseconds`;
+  if (cssMsgs[1] === "" && cssMsgs[3] === "") {
+    runtimeData.push({ name: i, result: 0, msgs: "" });
+    logData.push(`[${checkTime.stdout.trim()}] File ${i}: PASSED\n`);
+  } else {
+    runtimeData.push({ name: i, result: 1, msgs: cssMsgs });
+    logData.push(
+      `[${checkTime.stdout.trim()}] File ${i}: FAILED\n\nWith message:\n\n${cssMsgs.join("\n")}\n`
+    );
+  }
+}
+
+// Construct output message
+const endMessage = `\nCSS VALIDATION COMPLETED\n\n${cssFiles.length} files checked,\n${runtimeData.filter((d) => d.result === 0).length} files passed, ${runtimeData.filter((d) => d.result === 1).length} files failed.`;
+
+console.log(endMessage + "\n\nDetails:\n\n" + logData.join("\n"));
+
+if (runtimeData.filter((d) => d.result === 1).length === 0) {
+  console.log("All CSS files were validated and ready for commit.");
+  process.exit(0);
+} else {
+  console.error(
+    "Some CSS files did not validate. Please fix the errors before committing."
+  );
+  await $`touch cssvalidationfail.log`;
+  await $`echo "${logData.join("\n")}\n${endMessage}" >> cssvalidationfail.log`;
+  process.exit(1);
+}

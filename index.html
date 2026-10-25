@@ -1,73 +1,296 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NN21 Coming Soon</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #0f172a;
-      color: #f8fafc;
-      font-family: system-ui, -apple-system, sans-serif;
-      text-align: center;
-      padding: 20px;
-    }
-    .container {
-      max-width: 500px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #38bdf8;
-    }
-    p {
-      font-size: 1.1rem;
-      color: #94a3b8;
-      margin-bottom: 25px;
-    }
-    form {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-    input[type="email"] {
-      padding: 12px 15px;
-      border-radius: 6px;
-      border: 1px solid #334155;
-      background-color: #1e293b;
-      color: #fff;
-      outline: none;
-      width: 60%;
-    }
-    button {
-      padding: 12px 20px;
-      border-radius: 6px;
-      border: none;
-      background-color: #38bdf8;
-      color: #0f172a;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #7dd3fc;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Coming Soon to a Neighborhood Near You!</h1>
-    <p>We are working hard to launch our new website, sort of. Stay tuned!</p>
-    <p>Ai Built my website<p>
-  </div>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="NeighborhoodNerd21" />
+    <meta
+      property="og:description"
+      content="Your friendly neighborhood nerd." />
+    <meta
+      property="og:image"
+      content="https://neighborhoodnerd21.github.io/profile/images/og-img.jpg" />
+    <meta
+      property="og:url"
+      content="https://neighborhoodnerd21.com/" />
+    <meta
+      property="og:type"
+      content="website" />
+    <title>NeighborhoodNerd21</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <link
+      href="./styles.css"
+      rel="stylesheet" />
+  </head>
 
+  <body>
+    <nav class="py-2 bg-body-tertiary border-bottom">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2 active"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >Features</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >FAQs</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >About</a
+            >
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >Login</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-body-emphasis px-2"
+              >Sign up</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Double header</span>
+        </a>
+        <form
+          class="col-12 col-lg-auto mb-3 mb-lg-0"
+          role="search">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search..."
+            aria-label="Search" />
+        </form>
+      </div>
+    </header>
+    <!-- hero -->
+    <div
+      id="hero"
+      class="mx-3 mx-md-4 mt-0 pt-0 px-0 px-md-4 pt-5 mb-5 rounded-bottom-4 text-center shadow-lg">
+      <div class="container-fluid px-3 pt-5">
+        <div
+          class="row flex-lg-row-reverse align-items-end px-0 px-md-4 py-4 outer-box rounded-4">
+          <div class="col-12 col-xl-5 text-md-end">
+            <img
+              src="./images/nn21/profile.png"
+              class="profile-img rounded-2"
+              alt="profile" />
+          </div>
+          <div
+            class="col-12 col-xl-7 info-box rounded-3 px-0 px-md-4 py-4 text-center text-md-start">
+            <h1 class="display-5 fw-bold text-white mb-2 border-bottom">
+              NeighborhoodNerd21
+            </h1>
+            <p class="text-white fw-bold mb-0 fs-2">Britt Snodgrass</p>
+            <p class="text-white fs-5 fw-light mb-5">Consultant & Developer</p>
+            <address class="text-white">
+              <p class="mb-0 fs-4">
+                <a
+                  href="phone:+12602094462"
+                  class="text-decoration-none text-white"
+                  >260.209.4462</a
+                >
+              </p>
+              <p class="">
+                <a
+                  href="mailto:neighborhoodnerd21@protonmail.com"
+                  class="text-decoration-none text-white"
+                  >neighborhoodnerd21@protonmail.com</a
+                >
+              </p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid px-3 px-md-5 py-md-5 mb-3">
+      <div
+        id="content"
+        class="px-3 py-5 rounded-4 shadow-lg">
+        <div class="cards px-3 py-3 mb-5">
+          <div class="px-2 mb-5 border-bottom border-warning d-block w-100">
+            <h2 class="text-info">My Interests</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+            <div class="col">
+              <div
+                class="card card-container3 card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <div
+                  class="d-flex flex-column h-100 p-4 p-md-5 pb-3 text-warning text-shadow-1">
+                  <h3 class="pt-5 mt-5 display-6 lh-1 fw-bold">
+                    Blogging and Documentation
+                  </h3>
+                  <p class="lead text-info">Nerds Helping Nerds be Nerds</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card card-container1 card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <div
+                  class="d-flex flex-column h-100 p-4 p-md-5 pb-3 text-warning text-shadow-1">
+                  <h3 class="pt-5 mt-5 display-6 lh-1 fw-bold">
+                    Free & Open Source Solutions
+                  </h3>
+                  <p class="lead text-info">
+                    For Developers and Small Businesses
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card card-container2 card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <div
+                  class="d-flex flex-column h-100 p-4 p-md-5 pb-3 text-warning text-shadow-1">
+                  <h3 class="pt-5 mt-5 display-6 lh-1 fw-bold">
+                    Nux Systems Administration
+                  </h3>
+                  <p class="lead text-info">Scripting and Automation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-3 mb-5 justify-content-around d-flex flex-wrap align-items-start">
+          <div class="px-2 mb-5 border-bottom border-warning d-block w-100">
+            <h2 class="text-info">My Certifications</h2>
+          </div>
+          <a
+            href="https://app-na2.hubspot.com/academy/achievements/lt791t23/en/1/britt-snodgrass-ii/seo"
+            class="text-decoration-none"
+            aria-label="Search Engine Optimization Certification"
+            target="_blank">
+            <img
+              src="./images/certs/cert04-480w.avif"
+              alt="certification badge"
+              height="200" />
+          </a>
+          <a
+            href="https://www.freecodecamp.org/certification/fccb9e07699-425a-4cf1-be69-a2182f7e9606/foundational-c-sharp-with-microsoft"
+            class="text-decoration-none"
+            aria-label="Foundational CSharp with Microsoft Certification"
+            target="_blank">
+            <img
+              src="./images/certs/cert02-480w.avif"
+              alt="certification badge"
+              height="200" />
+          </a>
+          <a
+            href="https://www.freecodecamp.org/certification/fccb9e07699-425a-4cf1-be69-a2182f7e9606/responsive-web-design"
+            class="text-decoration-none"
+            aria-label="responsive web design certification"
+            target="_blank">
+            <img
+              src="./images/certs/cert01-480w.avif"
+              alt="certification badge"
+              height="200" />
+          </a>
+          <a
+            href="https://www.freecodecamp.org/certification/fccb9e07699-425a-4cf1-be69-a2182f7e9606/responsive-web-design-v9"
+            class="text-decoration-none"
+            aria-label="responsive web design certification"
+            target="_blank">
+            <img
+              src="./images/certs/cert03-480w.avif"
+              alt="certification badge"
+              height="200" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid px-md-4 py-md-3">
+      <footer
+        class="d-flex flex-column flex-md-row px-4 py-3 rounded-4 shadow-lg align-items-center justify-content-between gap-3">
+        <div class="logo">
+          <img
+            src="./images/nn21/logo.png"
+            alt="logo"
+            height="50" />
+        </div>
+        <div
+          id="validations"
+          class="px-4">
+          <p class="text-end">
+            <a href="http://jigsaw.w3.org/css-validator/">
+              <img
+                style="border: 0; width: 80px; height: auto"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+            </a>
+            <a
+              title="W3C, Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Valid_HTML_4.0.svg"
+              ><img
+                style="border: 0; width: 80px; height: auto"
+                alt="Valid HTML 4.0"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Valid_HTML_4.0.svg/960px-Valid_HTML_4.0.svg.png"
+            /></a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
