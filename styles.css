@@ -1,6 +1,6 @@
 :root {
-    --cobalt: rgb(46, 55, 254);
-    --cobalt-trans: rgba(46, 55, 254, 0.1);
+  --cobalt: rgb(46, 55, 254);
+  --cobalt-trans: rgba(46, 55, 254, 0.3);
 }
 
 html {
@@ -9,14 +9,11 @@ html {
 }
 
 body {
-  background-image: url("./public/images/bg/page-bg.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #000;
 }
 
 .text-cobalt {
-    color: var(--cobalt);
+  color: var(--cobalt);
 }
 
 #hero {
@@ -24,12 +21,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
+}
+
+.logo-outer-box {
+  background-color: var(--cobalt-trans);
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .logo-box {
-  background-color: rgba(0, 0, 0, 0.6);
-  background-image: url('./public/images/bg/binary.png');
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url("./public/images/bg/binary.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,16 +47,39 @@ body {
   background-color: var(--cobalt-trans);
 }
 
-.card-container1 {
-  background: url("./public/images/cards/card1.avif") no-repeat center/cover;
-}
-
-.card-container2 {
-  background: url("./public/images/cards/card2.avif") no-repeat center/cover;
-}
-
-.card-container3 {
-  background: url("./public/images/cards/card3.avif") no-repeat center/cover;
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: ;
+  --bs-card-subtitle-color: ;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(
+    var(--bs-border-radius) - (var(--bs-border-width))
+  );
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) 1px solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
 }
 
 .nav-icon {
@@ -76,9 +101,17 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    background-image: url("./public/images/bg/page-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
   #hero {
     background-image: url("./public/images/bg/bg.webp");
     background-attachment: fixed;
+    min-height: 500px;
   }
 
   .outer-box {
@@ -87,9 +120,4 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .profile-img {
-    width: 70%;
-    height: auto;
-    transform: translateY(0);
-  }
 }
