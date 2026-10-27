@@ -39,12 +39,11 @@ header {
   padding: 20px;
 }
 
-.info-box {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 #content {
-  background-color: var(--cobalt-trans);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .card {
@@ -113,8 +112,11 @@ header {
     min-height: 550px;
   }
 
-  .outer-box {
-    background-color: rgba(0, 0, 0, 0.5);
+  #content {
+    background-color: var(--cobalt-trans);
+    border-radius: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
