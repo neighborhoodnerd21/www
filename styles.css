@@ -1,6 +1,7 @@
 :root {
   --cobalt: rgb(46, 55, 254);
   --cobalt-trans: rgba(46, 55, 254, 0.1);
+  --cobalt-trans2: rgba(46, 55, 254, 0.5);
   --nn21-yellow: #f5f502;
 }
 
@@ -49,19 +50,30 @@ h1 {
 
 .logo-outer-box {
   background-color: var(--cobalt-trans);
-  border-radius: 15px;
-  padding: 5px;
+  padding: 2px;
+}
+
+.card-text-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: aliceblue;
 }
 
 .logo-box {
   background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
   padding: 20px;
 }
 
 .card {
   background-color: #000;
   color: aliceblue;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+}
+
+.card-link {
+  align-self: end;
 }
 
 @media screen and (min-width: 768px) {

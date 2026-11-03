@@ -15,7 +15,9 @@
       rel="stylesheet"
       href="../styles.css" />
   </head>
+
   <body>
+    <!-- NAVIGATION BLOCK -->
     <header
       class="d-flex flex-wrap justify-content-center align-items-center px-4 py-2 border-bottom border-primary">
       <ul class="nav">
@@ -50,8 +52,9 @@
         </li>
       </ul>
     </header>
+    <!-- INTRO BLOCK -->
     <section id="lead">
-      <div class="px-4 px-md-5 py-3 text-center text-md-start">
+      <div class="mt-5 px-4 px-md-5 py-3 text-center text-md-start">
         <div class="container px-1 px-md-5 py-5 mb-3">
           <h1 class="mb-5">
             Open<span class="text-cobalt fw-bold">Source</span>
@@ -75,22 +78,28 @@
         </div>
       </div>
     </section>
-
-    <section id="tools">
+    <!-- CARD BLOCK -->
+    <section id="oss">
       <div class="container mb-5">
         <div
           class="row row-cols-1 row-cols-lg-3 align-items-stretch g-5 pb-3 px-4 py-3">
+          <!-- UBUNTU CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/ubuntu.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">Ubuntu Linux</h3>
                 <p class="card-text">
-                  "The number 1 open source operating system powering millions
-                  of PCs and laptops around the world."
+                  Popular open source Linux operating system developed by
+                  <a
+                    href="https://canonical.com/"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >Canonical Ltd</a
+                  >.
                 </p>
                 <a
                   href="https://ubuntu.com/"
@@ -98,20 +107,32 @@
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://ubuntu.com/download"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
+          <!-- FEDORA CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/fedora.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">Fedora Linux</h3>
                 <p class="card-text">
-                  "A customizable high-quality desktop, built on the latest open
-                  source technology. Trusted, powerful and easy."
+                  The upstream, community distro of
+                  <a
+                    href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >Red Hat® Enterprise Linux</a
+                  >.
                 </p>
                 <a
                   href="https://fedoraproject.org/kde/"
@@ -119,20 +140,26 @@
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://fedoraproject.org/#editions"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
+          <!-- DEBIAN CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/debian.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">Debian GNU&sol;Linux</h3>
                 <p class="card-text">
-                  "Debian is a Linux-based operating system for a wide range of
-                  devices including laptops, desktops and servers."
+                  One of the oldest and most influential Linux distributions.
                 </p>
                 <a
                   href="https://www.debian.org/"
@@ -140,65 +167,82 @@
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://www.debian.org/distrib/"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
+          <!-- INKSCAPE CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/inkscape.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">INKSCAPE</h3>
-                <p class="card-text">
-                  "Free and open source vector graphics editor for GNU/Linux,
-                  Windows and macOS. It offers a rich set of features ... for
-                  both artistic and technical illustrations"
-                </p>
+                <p class="card-text">FOSS vector graphics editor.</p>
                 <a
                   href="https://inkscape.org/"
                   target="_blank"
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://inkscape.org/"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
+          <!-- GIMP CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/gimp.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">GIMP</h3>
-                <p class="card-text">
-                  "GNU Image Manipulation Program ... is a freely distributed
-                  program for such tasks as photo retouching, image composition
-                  and image authoring"
-                </p>
+                <p class="card-text">The GNU Image Manipulation Program.</p>
                 <a
                   href="https://www.gimp.org/"
                   target="_blank"
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://www.gimp.org/downloads/"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
+          <!-- LIBREOFFICE CARD -->
           <div class="col">
             <div class="card shadow-sm">
               <img
                 src="../public/images/cards/libreoffice.png"
                 alt=""
-                class="rounded-top-2" />
+                class="card-img-top" />
               <div class="card-body">
                 <h3 class="card-title">LibreOffice</h3>
                 <p class="card-text">
-                  LibreOffice is community-driven and developed software, and is
-                  a project of the not-for-profit organization, The Document
-                  Foundation.
+                  A project of
+                  <a
+                    href="https://www.documentfoundation.org/"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >The Document Foundation</a
+                  >.
                 </p>
                 <a
                   href="https://www.libreoffice.org/"
@@ -206,12 +250,23 @@
                   class="card-link"
                   >Homepage</a
                 >
+                <a
+                  href="https://www.libreoffice.org/download/"
+                  target="_blank"
+                  class="card-link"
+                  >Download</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- FURTHER READING BLOCK -->
+    <section id="information">
+      <div class="container px-4 py-5"></div>
+    </section>
+    <!-- CREDITS BLOCK -->
     <section id="credits">
       <div class="container px-4 py-5">
         <p class="my-1">Ubuntu is a registered trademark of Canonical Ltd.</p>
@@ -225,7 +280,7 @@
         </p>
       </div>
     </section>
-    <!-- footer -->
+    <!-- FOOTER BLOCK -->
     <footer class="d-flex flex-column text-center px-4 py-3">
       <div class="px-4 py-2">
         <span class="fs-6">NN21</span>
