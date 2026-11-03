@@ -13,7 +13,7 @@
       crossorigin="anonymous" />
     <link
       rel="stylesheet"
-      href="./css/opensource-styles.css" />
+      href="../styles.css" />
   </head>
   <body>
     <header
@@ -51,166 +51,195 @@
       </ul>
     </header>
     <section id="lead">
-      <div class="container mb-5">
-        <h1 class="mb-4">Open Thinking</h1>
-        <p>
-          You may be wondering, "What is open source, and why should I care?".
-          That is an excellent question. Over the years, dedicated community
-          members have come together to define exactly what Open Source means.
-          What began as an alternative approach to proprietary software
-          licensing and distribution has grown into a philosophy applied to many
-          other fields, including hardware design and educational resources.
-        </p>
-        <p>
-          With NeighborhoodNerd21 and OpenIT, our goal is to foster transparency
-          and collaboration between organizations, while providing low- or
-          no-cost assistance and training to non-profits and small businesses.
-          By doing so, we can actively reduce barriers between the people trying
-          to make a difference and the tools they need to succeed.
-        </p>
-        <p>
-          Disclaimer: The content on this platform is intended solely to promote
-          and raise awareness of free and open-source software (FOSS)
-          alternatives. NeighborhoodNerd21 and OpenIT are entirely independent
-          and are not associated with, sponsored by, or endorsed by any of the
-          featured projects or organizations.
-        </p>
+      <div class="px-4 px-md-5 py-3 text-center text-md-start">
+        <div class="container px-1 px-md-5 py-5 mb-3">
+          <h1 class="mb-5">
+            Open<span class="text-cobalt fw-bold">Source</span>
+          </h1>
+          <p class="lead px-3 py-2">
+            You may be wondering, "What is open source, and why should I care?".
+            That is an excellent question. Over the years, dedicated community
+            members have come together to define exactly what Open Source means.
+            What began as an alternative approach to proprietary software
+            licensing and distribution has grown into a philosophy applied to
+            many other fields, including hardware design and educational
+            resources.
+          </p>
+          <p class="text-info px-3 py-2">
+            Disclaimer: The content on this platform is intended solely to
+            promote and raise awareness of free and open-source software (FOSS)
+            alternatives. NeighborhoodNerd21 and OpenIT are entirely independent
+            and are not associated with, sponsored by, or endorsed by any of the
+            featured projects or organizations.
+          </p>
+        </div>
       </div>
     </section>
 
     <section id="tools">
       <div class="container mb-5">
-        <div class="row mb-4">
-          <div class="col-4">
-            <div class="card">
+        <div
+          class="row row-cols-1 row-cols-lg-3 align-items-stretch g-5 pb-3 px-4 py-3">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/ubuntu.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-
-              <a
-                href="https://ubuntu.com/"
-                target="_blank"
-                class="text-decoration-none text-black"
-                ><h3>Ubuntu Linux</h3></a
-              >
-              <p>
-                "The number 1 open source operating system powering millions of
-                PCs and laptops around the world."
-              </p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">Ubuntu Linux</h3>
+                <p class="card-text">
+                  "The number 1 open source operating system powering millions
+                  of PCs and laptops around the world."
+                </p>
+                <a
+                  href="https://ubuntu.com/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/fedora.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <a
-                href="https://fedoraproject.org/kde/"
-                target="_blank"
-                class="text-decoration-none text-black">
-                <h3>Fedora Linux</h3>
-              </a>
-              <p>
-                "A customizable high-quality desktop, built on the latest open
-                source technology. Trusted, powerful and easy."
-              </p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">Fedora Linux</h3>
+                <p class="card-text">
+                  "A customizable high-quality desktop, built on the latest open
+                  source technology. Trusted, powerful and easy."
+                </p>
+                <a
+                  href="https://fedoraproject.org/kde/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/debian.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3>Debian GNU&sol;Linux</h3>
-              <p>
-                "Debian is a Linux-based operating system for a wide range of
-                devices including laptops, desktops and servers."
-              </p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">Debian GNU&sol;Linux</h3>
+                <p class="card-text">
+                  "Debian is a Linux-based operating system for a wide range of
+                  devices including laptops, desktops and servers."
+                </p>
+                <a
+                  href="https://www.debian.org/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row mb-4">
-          <div class="col-4">
-            <div class="card">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/inkscape.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">INKSCAPE</h3>
+                <p class="card-text">
+                  "Free and open source vector graphics editor for GNU/Linux,
+                  Windows and macOS. It offers a rich set of features ... for
+                  both artistic and technical illustrations"
+                </p>
+                <a
+                  href="https://inkscape.org/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/gimp.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">GIMP</h3>
+                <p class="card-text">
+                  "GNU Image Manipulation Program ... is a freely distributed
+                  program for such tasks as photo retouching, image composition
+                  and image authoring"
+                </p>
+                <a
+                  href="https://www.gimp.org/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card">
+          <div class="col">
+            <div class="card shadow-sm">
               <img
                 src="../public/images/cards/libreoffice.png"
                 alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-4">
-          <div class="col-4">
-            <div class="card">
-              <img
-                src="../public/images/cards/firefox.png"
-                alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <img
-                src="../public/images/cards/thunderbird.png"
-                alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card">
-              <img
-                src="../public/images/cards/thundermail.png"
-                alt=""
-                class="rounded-top-2 border-bottom border-secondary shadow-sm" />
-              <h3></h3>
-              <p></p>
+                class="rounded-top-2" />
+              <div class="card-body">
+                <h3 class="card-title">LibreOffice</h3>
+                <p class="card-text">
+                  LibreOffice is community-driven and developed software, and is
+                  a project of the not-for-profit organization, The Document
+                  Foundation.
+                </p>
+                <a
+                  href="https://www.libreoffice.org/"
+                  target="_blank"
+                  class="card-link"
+                  >Homepage</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="credits">
-      <div class="container">
-        <p>Ubuntu is a registered trademark of Canonical Ltd.</p>
-        <p>
+      <div class="container px-4 py-5">
+        <p class="my-1">Ubuntu is a registered trademark of Canonical Ltd.</p>
+        <p class="my-1">
           Fedora, the Fedora word design, and the Infinity design logo are
           trademarks of Red Hat, Inc.
         </p>
-        <p>
+        <p class="my-1">
           Debian is a registered trademark owned by Software in the Public
           Interest, Inc.
         </p>
       </div>
     </section>
+    <!-- footer -->
+    <footer class="d-flex flex-column text-center px-4 py-3">
+      <div class="px-4 py-2">
+        <span class="fs-6">NN21</span>
+        <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          class="text-decoration-none m-1">
+          <img
+            src="https://creativecommons.org/wp-content/themes/vocabulary-theme/vocabulary/svg/cc/license_badges/big/by_sa.svg"
+            width="60"
+            alt="CC-BY_SA" />
+        </a>
+        <span class="fs-6">2026</span>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
