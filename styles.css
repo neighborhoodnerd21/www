@@ -11,24 +11,21 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    135deg,
-    #000000 0%,
-    #000d26 25%,
-    #001338 50%,
-    #000d26 75%,
-    #000000 100%
-  );
-  background-attachment: fixed;
+  background-color: #000;
   color: aliceblue;
 }
 
 header {
   background-color: #000;
+  padding-top: env(safe-area-inset-top);
+}
+
+.bottom-bar {
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--nn21-yellow);
   border-bottom: 2px solid var(--nn21-yellow);
 }
@@ -80,6 +77,22 @@ h1 {
   #hero {
     background-attachment: fixed;
     min-height: 550px;
+  }
+
+  body {
+    background: linear-gradient(
+      135deg,
+      #000000 0%,
+      #000d26 25%,
+      #001338 50%,
+      #000d26 75%,
+      #000000 100%
+    );
+    background-attachment: fixed;
+  }
+
+  h1 {
+    font-size: 5rem;
   }
 
   .card-container-box {
