@@ -26,8 +26,8 @@ header {
 
 h1 {
   font-size: 3rem;
-  color: var(--nn21-yellow);
-  border-bottom: 2px solid var(--nn21-yellow);
+  color: aliceblue;
+  border-bottom: 2px solid aliceblue;
 }
 
 .text-cobalt {
@@ -40,6 +40,13 @@ h1 {
 
 #hero {
   background-image: url("./public/images/bg/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#profile {
+  background-image: url("./public/images/profiles/nn21-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,7 +77,7 @@ h1 {
 @media screen and (min-width: 768px) {
   #hero {
     background-attachment: fixed;
-    min-height: 550px;
+    min-height: 450px;
   }
 
   body {
@@ -87,11 +94,6 @@ h1 {
 
   h1 {
     font-size: 5rem;
-  }
-
-  .card-container-box {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 0.5rem;
   }
 }
 
