@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="315.72101mm"
+   height="142.35201mm"
+   viewBox="0 0 315.72101 142.35201"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="nn21-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title19">NeighborhoodNerd21 Logo</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71713664"
+     inkscape:cx="718.13371"
+     inkscape:cy="272.61192"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="true">
+    <sodipodi:guide
+       position="231.32796,118.0017"
+       orientation="0,1193.2763"
+       id="guide12"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="201.44348,154.15822"
+       orientation="538.02333,0"
+       id="guide13"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="235.75529,68.563187"
+       orientation="0,-1193.2763"
+       id="guide14"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="113.26584,186.25636"
+       orientation="-538.02333,0"
+       id="guide15"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,142.35201"
+       orientation="0,1193.2763"
+       id="guide16"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="315.72102,142.35201"
+       orientation="538.02333,0"
+       id="guide17"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="315.72102,0"
+       orientation="0,-1193.2763"
+       id="guide18"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-538.02333,0"
+       id="guide19"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="43.765339"
+       y1="148.09448"
+       x2="148.27388"
+       y2="148.09448"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-58.826035,-120.49024)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:45.9116px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:0.30000001;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="190.74397"
+       y="182.32199"
+       id="text1"
+       transform="scale(0.98808703,1.0120566)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#ffffff;fill-opacity:0.30000001;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         x="190.74397"
+         y="182.32199">NN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="162.60184"
+       y="182.88863"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#ffffff;fill-opacity:0;stroke-width:1;stroke-dasharray:none"
+         x="162.60184"
+         y="182.88863">[</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="239.34222"
+       y="182.88861"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';fill:#ffffff;fill-opacity:0;stroke-width:1;stroke-dasharray:none"
+         x="239.34222"
+         y="182.88861">]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="93.13784"
+       y="230.06665"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-size:25.4px;stroke-width:0"
+         x="93.13784"
+         y="230.06665">NeighborhoodNerd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.0418px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="363.27509"
+       y="197.75861"
+       id="text6"
+       transform="scale(0.92963887,1.0756865)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-size:10.0418px;stroke-width:0"
+         x="363.27509"
+         y="197.75861">21</tspan></text>
+  </g>
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:title>NeighborhoodNerd21 Logo</dc:title>
+        <dc:date>11/97/2026</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Britt Snodgrass II</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Google Gemini</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
