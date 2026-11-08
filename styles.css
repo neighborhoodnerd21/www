@@ -71,6 +71,10 @@ h1 {
   align-self: end;
 }
 
+.text-bg-black {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 @media screen and (min-width: 768px) {
   #hero {
     background-attachment: fixed;
