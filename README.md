@@ -10,6 +10,6 @@ This project is licensed under the GNU General Public License v3.0 - see the
 
 ### Third-Party Software
 
-This project includes [Bootstrap](https://getbootstrap.com), which is used under
-the terms of the [MIT License](https://github.com). Bootstrap's original
-copyright notices remain intact within its respective files.
+This project dynamically links to [Bootstrap](https://getbootstrap.com/) via a
+public CDN. Bootstrap is an external framework developed by its respective
+authors and is subject to the terms of the [MIT License](https://github.com).
