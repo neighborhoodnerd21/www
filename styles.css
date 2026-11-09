@@ -5,6 +5,10 @@
   --nn21-yellow: #f5f502;
 }
 
+* {
+  outline: 1px solid red !important;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -43,7 +47,12 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 300px;
+  min-height: 50dvh;
+}
+
+#hero img {
+  width: auto;
+  height: 25dvh;
 }
 
 #profile {
