@@ -5,10 +5,6 @@
   --nn21-yellow: #f5f502;
 }
 
-* {
-  outline: 1px solid red !important;
-}
-
 html {
   margin: 0;
   padding: 0;
