@@ -1,8 +1,6 @@
 :root {
   --cobalt: rgb(46, 55, 254);
   --cobalt-trans: rgba(46, 55, 254, 0.4);
-  --cobalt-trans2: rgba(46, 55, 254, 0.5);
-  --nn21-yellow: #f5f502;
 }
 
 html {
@@ -32,10 +30,6 @@ h1 {
 
 .text-cobalt {
   color: var(--cobalt);
-}
-
-.text-nn21-yellow {
-  color: var(--nn21-yellow);
 }
 
 #hero {
