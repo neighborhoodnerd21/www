@@ -1,6 +1,6 @@
 :root {
   --cobalt: rgb(46, 55, 254);
-  --cobalt-trans: rgba(46, 55, 254, 0.4);
+  --cobalt-trans: rgba(46, 55, 254, 0.2);
 }
 
 html {
@@ -38,12 +38,12 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 30dvh;
+  min-height: 20dvh;
 }
 
 #hero img {
   width: auto;
-  height: 18dvh;
+  height: 12dvh;
 }
 
 #profile {
@@ -51,6 +51,11 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.profile-img {
+  width: 60%;
+  max-width: 200px;
 }
 
 .card-text-box {
@@ -79,12 +84,7 @@ h1 {
   #hero {
     background-image: url("./public/images/bg/banner-bg.png");
     background-attachment: fixed;
-    min-height: 60dvh;
-  }
-
-  #hero img {
-    width: auto;
-    height: 25dvh;
+    min-height: 30dvh;
   }
 
   body {
@@ -102,7 +102,22 @@ h1 {
   h1 {
     font-size: 5rem;
   }
+
+  .profile-img {
+    width: 75%;
+    max-width: 350px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  #hero {
+    background-image: url("./public/images/bg/banner-bg.png");
+    background-attachment: fixed;
+    min-height: 60dvh;
+  }
+
+  #hero img {
+    width: auto;
+    height: 30dvh;
+  }
 }
