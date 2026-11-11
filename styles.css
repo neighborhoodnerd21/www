@@ -24,7 +24,7 @@ footer {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: aliceblue;
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 #hero img {
-  width: 100%;
+  width: 400px;
   height: auto;
 }
 
@@ -54,7 +54,7 @@ h1 {
 
 .profile-img {
   width: auto;
-  height: 300px;
+  height: 250px;
 }
 
 .card-text-box {
@@ -90,6 +90,11 @@ h1 {
     min-height: 30dvh;
   }
 
+  #hero img {
+    width: 450px;
+    height: auto;
+  }
+
   body {
     background: linear-gradient(
       135deg,
@@ -107,8 +112,8 @@ h1 {
   }
 
   .profile-img {
-    width: 75%;
-    max-width: 350px;
+    width: auto;
+    height: 300px;
   }
 }
 
@@ -117,6 +122,11 @@ h1 {
     background-image: url("./public/images/bg/banner-bg.png");
     background-attachment: fixed;
     min-height: 40dvh;
+  }
+
+  #hero img {
+    width: 400px;
+    height: auto;
   }
 
   h1 {

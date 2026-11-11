@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  min-height: 30dvh;
+  min-height: 20dvh;
 }
 
 h1 {
@@ -14,6 +14,10 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+  #foss-hero {
+    min-height: 30dvh;
+  }
+
   .card:hover {
     transform: translateY(-5px);
     border: 1px solid var(--cobalt-trans);
