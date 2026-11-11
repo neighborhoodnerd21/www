@@ -37,8 +37,8 @@ h1 {
 }
 
 #hero img {
-  width: 300px;
-  height: auto;
+  width: auto;
+  height: 10dvh;
 }
 
 #profile {
@@ -47,7 +47,7 @@ h1 {
 
 .profile-img {
   width: auto;
-  height: 250px;
+  height: 15dvh;
 }
 
 .card-text-box {
@@ -77,11 +77,6 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  #hero img {
-    width: 350px;
-    height: auto;
-  }
-
   body {
     background: linear-gradient(
       135deg,
@@ -99,17 +94,17 @@ h1 {
   }
 
   .profile-img {
-    width: auto;
-    height: 300px;
+    width: 20dvw;
+    height: auto;
+  }
+
+  #hero img {
+    width: 30dvh;
+    height: auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  #hero img {
-    width: 400px;
-    height: auto;
-  }
-
   h1 {
     font-size: 5rem;
   }
