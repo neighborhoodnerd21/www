@@ -37,8 +37,8 @@ h1 {
 }
 
 #hero img {
-  width: auto;
-  height: 20dvh;
+  width: 70dvw;
+  height: auto;
 }
 
 #profile {
@@ -97,15 +97,15 @@ h1 {
     width: 20dvw;
     height: auto;
   }
-
-  #hero img {
-    width: 50dvh;
-    height: auto;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   h1 {
     font-size: 5rem;
+  }
+
+  #hero img {
+    width: auto;
+    height: 30dvh;
   }
 }
