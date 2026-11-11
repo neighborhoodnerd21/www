@@ -1,29 +1,10 @@
 #foss-hero {
-  background-image: url("../public/images/bg/foss-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 20dvh;
-}
-
-h1 {
-  font-size: 2rem;
-  color: darkblue;
-  border-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (min-width: 768px) {
-  #foss-hero {
-    min-height: 30dvh;
-  }
-
   .card:hover {
     transform: translateY(-5px);
     border: 1px solid var(--cobalt-trans);
-  }
-
-  h1 {
-    font-size: 5rem;
   }
 }
