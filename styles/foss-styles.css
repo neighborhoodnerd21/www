@@ -9,7 +9,7 @@
 
 h1 {
   font-size: 2rem;
-  color: aliceblue;
+  color: darkblue;
   border-bottom: 0;
 }
 
@@ -21,6 +21,5 @@ h1 {
 
   h1 {
     font-size: 5rem;
-    color: aliceblue;
   }
 }

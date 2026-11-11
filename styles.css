@@ -24,9 +24,8 @@ footer {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: aliceblue;
-  border-bottom: 2px solid aliceblue;
 }
 
 .text-cobalt {
@@ -42,20 +41,20 @@ h1 {
 }
 
 #hero img {
-  width: auto;
-  height: 12dvh;
+  width: 100%;
+  height: auto;
 }
 
 #profile {
-  background-image: url("./public/images/profiles/nn21-bg.png");
+  background-image: url("./public/images/bg/foss-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .profile-img {
-  width: 60%;
-  max-width: 200px;
+  width: auto;
+  height: 300px;
 }
 
 .card-text-box {
@@ -104,7 +103,7 @@ h1 {
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .profile-img {
@@ -117,11 +116,10 @@ h1 {
   #hero {
     background-image: url("./public/images/bg/banner-bg.png");
     background-attachment: fixed;
-    min-height: 60dvh;
+    min-height: 40dvh;
   }
 
-  #hero img {
-    width: auto;
-    height: 30dvh;
+  h1 {
+    font-size: 5rem;
   }
 }
