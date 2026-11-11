@@ -37,7 +37,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 20dvh;
+  min-height: 25dvh;
 }
 
 #hero img {
@@ -46,7 +46,7 @@ h1 {
 }
 
 #profile {
-  background-image: url("./public/images/bg/foss-bg.png");
+  background-image: url("./public/images/bg/banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
