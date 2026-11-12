@@ -33,7 +33,7 @@ h1 {
 }
 
 #hero {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 #hero img {
@@ -42,7 +42,7 @@ h1 {
 }
 
 #profile {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .profile-img {
