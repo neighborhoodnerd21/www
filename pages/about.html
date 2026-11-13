@@ -60,11 +60,22 @@
         <div
           class="row row-cols-1 row-cols-lg-2 flex-row-reverse align-items-center align-items-md-end px-4 py-4">
           <div class="col text-center text-lg-end p-lg-2 py-3">
-            <div>
-              <img
-                src="../public/images/profiles/nn21-profile.avif"
-                class="profile-img rounded-3 shadow-lg" />
-            </div>
+            <img
+              src="../public/images/profiles/nn21-profile-600w.avif"
+              srcset="
+                ../public/images/profiles/nn21-profile-300w.avif 300w,
+                ../public/images/profiles/nn21-profile-600w.avif 600w,
+                ../public/images/profiles/nn21-profile-900w.avif 900w
+              "
+              sizes="(max-width: 575.98px) 100vw,
+                            (max-width: 767.98px) 540px,
+                            (max-width: 991.98px) 720px,
+                            (max-width: 1199.98px) 480px,
+                            (max-width: 1399.98px) 570px,
+                            660px"
+              width="600"
+              height="600"
+              class="profile-img img-fluid rounded-3 shadow-lg" />
           </div>
           <div class="col text-center text-lg-start py-2">
             <p class="display-4 fw-bold mb-2">Britt Snodgrass</p>
@@ -189,7 +200,7 @@
           href="https://creativecommons.org/licenses/by-sa/4.0/"
           class="d-inline-flex align-items-center text-decoration-none">
           <img
-            src="https://www.gnu.org/graphics/gplv3-127x51.png"
+            src="../public/images/icons/gplv3-127x51.png"
             width="60"
             height="auto"
             alt="GPLv3" />
