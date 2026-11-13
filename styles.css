@@ -3,12 +3,57 @@
   --cobalt-trans: rgba(46, 55, 254, 0.5);
 }
 
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-code-pro-light {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.source-code-pro-normal {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-code-pro-bold {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 html {
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   background-color: #000d26;
   color: aliceblue;
 }
@@ -24,12 +69,24 @@ footer {
 }
 
 h1 {
-  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3rem;
   color: aliceblue;
 }
 
 .text-cobalt {
   color: var(--cobalt);
+}
+
+#banner {
+  background-image: url("./public/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #hero {
@@ -39,6 +96,10 @@ h1 {
 #hero img {
   width: 70dvw;
   height: auto;
+}
+
+#card-block {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #profile {
@@ -110,7 +171,7 @@ h1 {
     text-align: justify;
   }
 
-  .card:hover {
+  .card-bounce:hover {
     transform: translateY(-5px);
     border: 1px solid var(--cobalt-trans);
   }

@@ -31,200 +31,174 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous" />
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=VT323&display=swap"
+      rel="stylesheet" />
+    <link
       href="./styles.css"
       rel="stylesheet" />
   </head>
 
   <body>
     <!-- NAVIGATION BLOCK -->
-    <header
-      class="d-flex flex-wrap justify-content-center align-items-center px-0 px-md-4 py-2 border-bottom border-primary">
-      <ul class="nav">
-        <li class="nav-item">
-          <a
-            href="#"
-            class="nav-link"
-            aria-current="page"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="./pages/contact.html"
-            class="nav-link link-secondary"
-            >Contact</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://theneighborhoodnerdblog.blogspot.com/"
-            class="nav-link link-secondary"
-            >Blog</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="./pages/opensource.html"
-            class="nav-link link-secondary"
-            >FOSS</a
-          >
-        </li>
-      </ul>
+    <header>
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center py-1">
+        <span class="fs-3 text-secondary fw-semibold"
+          >[NN]<sup class="fs-5 ms-1 text-primary-emphasis">21</sup></span
+        >
+        <ul class="nav">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link link-secondary"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="./pages/about.html"
+              class="nav-link"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://theneighborhoodnerdblog.blogspot.com/"
+              class="nav-link"
+              >Blog</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
-    <main class="mx-2 mx-lg-3">
-      <!-- BANNER HERO -->
+    <section
+      id="banner"
+      class="py-5 shadow-lg">
       <div
         id="hero"
-        class="container d-flex my-3 my-md-5 py-5 rounded-4 shadow-lg align-items-center justify-content-center">
-        <img
-          class="img"
-          src="./public/images/nn21/nn21-icon.png"
-          alt="NN21 Logo" />
-      </div>
-      <!-- INTRO BLOCK -->
-      <div class="container my-3 px-4 px-md-5 pt-5 pb-3 py-md-5">
-        <div class="text-centered text-md-start">
-          <h1 class="mb-5 px-3">
-            Welcome to Open
-            <span class="d-inline-flex text-cobalt fw-bold">IT</span>
-          </h1>
-          <p class="fs-4 px-3 py-4">
-            We are an IT consultation service for nonprofits and small-owned
-            businesses. NeighborhoodNerd21 started with one nerd who wanted to
-            help those that help others. We hope to grow into a network of other
-            like-minded nerds with a vision to change the way today's tech world
-            works by applying some of the same philosophy and concepts used in
-            Open Source Software. The strength of the Open IT vision finds roots
-            in three core values: community, opportunity and integrity.
+        class="container d-flex py-5 my-5 rounded-4 shadow-lg align-items-center justify-content-center">
+        <div class="row row-cols-1">
+          <p class="text-center mb-0 fs-3 text-primary-emphasis">
+            NeighborhoodNerd<sup class="fs-5 ms-1">21</sup>
           </p>
+          <h1 class="text-center">Open <span class="text-primary">IT</span></h1>
         </div>
       </div>
-      <!-- CARD BLOCK -->
-      <div class="container px-3 px-md-5 py-3 py-md-5">
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch">
-          <!-- COMMUNITY CARD -->
-          <div class="col p-2">
-            <div class="card shadow-lg">
-              <div class="card-body p-0">
-                <img
-                  class="card-img"
-                  src="./public/images/cards/card1.avif" />
-                <div
-                  class="card-img-overlay card-text-box align-self-end shadow-lg px-3 py-2 rounded-3 m-2 text-center">
-                  <a
-                    href="./pages/opensource.html#community"
-                    class="card-link stretched-link text-decoration-none text-white fs-3 fw-bold"
-                    >Community</a
-                  >
+    </section>
+    <main>
+      <section
+        id="intro"
+        class="py-5 my-5">
+        <p class="text-center fs-1 text-primary">
+          Bringing openness to IT so we can help you help others.
+        </p>
+        <p class="text-center fs-1 text-info">
+          Empowering organizations through low- or no-cost training and support.
+        </p>
+        <p class="text-center fs-1 text-secondary">
+          Protecting the integrity of your mission through data security.
+        </p>
+        <p class="text-center fs-3 py-3">
+          <a
+            href="mailto:nn21@neighborhoodnerd21.com"
+            class="btn btn-secondary rounded-4 px-4 py-2 fs-3 text-decoration-none"
+            >Reach Out</a
+          >
+        </p>
+      </section>
+      <section id="card-block">
+        <!-- CARD BLOCK -->
+        <div class="container py-md-5 justify-content-between">
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch">
+            <div class="col p-3">
+              <div class="card shadow-lg">
+                <div class="card-body p-0">
+                  <img
+                    class="card-img-top"
+                    src="./public/images/cards/card1.avif" />
+                  <div
+                    class="card-text align-self-end shadow-lg py-2 rounded-3 m-2 text-center">
+                    <a
+                      href="./pages/opensource.html#community"
+                      class="card-link py-2 px-4 text-decoration-none text-white fs-3 fw-bold"
+                      >Community</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- OPPORTUNITY CARD -->
-          <div class="col p-2">
-            <div class="card shadow-lg">
-              <div class="card-body p-0">
-                <img
-                  class="card-img"
-                  src="./public/images/cards/card2.avif" />
-                <div
-                  class="card-img-overlay card-text-box align-self-end shadow-lg px-3 py-2 rounded-3 m-2 text-center">
-                  <a
-                    href="./pages/opensource.html#opportunity"
-                    class="card-link stretched-link text-decoration-none text-white fs-3 fw-bold"
-                    >Opportunity</a
-                  >
+            <div class="col p-3">
+              <div class="card shadow-lg">
+                <div class="card-body p-0">
+                  <img
+                    class="card-img-top"
+                    src="./public/images/cards/card2.avif" />
+                  <div
+                    class="card-text align-self-end shadow-lg py-2 rounded-3 m-2 text-center">
+                    <a
+                      href="./pages/opensource.html#opportunity"
+                      class="card-link py-2 px-4 text-decoration-none text-white fs-3 fw-bold"
+                      >Opportunity</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- INTEGRITY CARD -->
-          <div class="col p-2">
-            <div class="card shadow-lg">
-              <div class="card-body p-0">
-                <img
-                  class="card-img"
-                  src="./public/images/cards/card3.avif" />
-                <div
-                  class="card-img-overlay card-text-box align-self-end shadow-lg px-3 py-2 rounded-3 m-2 text-center">
-                  <a
-                    href="./pages/opensource.html#integrity"
-                    class="card-link stretched-link text-decoration-none text-white fs-3 fw-bold"
-                    >Integrity</a
-                  >
+            <div class="col p-3">
+              <div class="card shadow-lg">
+                <div class="card-body p-0">
+                  <img
+                    class="card-img-top"
+                    src="./public/images/cards/card3.avif" />
+                  <div
+                    class="card-text align-self-end shadow-lg py-2 rounded-3 m-2 text-center">
+                    <a
+                      href="./pages/opensource.html#integrity"
+                      class="card-link py-2 px-4 text-decoration-none text-white fs-3 fw-bold"
+                      >Integrity</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- MORE INFO -->
-      <div class="container my-3 px-4 px-md-5 py-3 py-md-5">
-        <div class="text-centered text-md-start">
-          <p class="fs-4 px-3 py-4">
-            The tech ecosystem is overwhelming and difficult to navigate for
-            non-technical individuals. Tech-debt can bury your nonprofit or
-            small business under subscriptions and lock-ins. Uninformed users
-            with poor internet habits can lead to security issues and data loss.
-          </p>
-        </div>
-      </div>
-      <div class="container px-2 px-md-5 py-4">
-        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch px-2">
-          <div class="col p-2">
-            <div class="card shadow-lg">
-              <div class="card-body p-0">
-                <img
-                  class="card-img"
-                  src="./public/images/photos/education-02.avif"
-                  alt="" />
-              </div>
+      <section class="py-5">
+        <div class="container">
+          <div class="p-5 m-5 text-center rounded-4 text-bg-black text-wrap">
+            <div class="px-5 py-4">
+              <p class="fs-5 fw-light">Need assistance or have questions?</p>
+              <p class="fs-5 fw-light">
+                If you are a non-profit or small business looking for support,
+                please reach out to us. Answers are completely free, with no
+                fees or dues required.
+              </p>
             </div>
-          </div>
-          <div class="col p-2">
-            <div class="card shadow-lg">
-              <div class="card-body p-0">
-                <img
-                  class="card-img"
-                  src="./public/images/photos/education-01.avif"
-                  alt="" />
-              </div>
+            <div class="d-inline-flex gap-3">
+              <a
+                href="mailto:nn21@neighborhoodnerd21.com"
+                class="d-inline-flex align-items-center btn btn-primary btn-lg px-md-4 rounded-pill">
+                Get Help
+              </a>
+              <a
+                href="./pages/opensource.html"
+                class="btn btn-outline-secondary btn-lg px-md-4 rounded-pill">
+                Learn More
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container my-3 px-4 px-md-5 py-3 py-md-5">
-        <div class="text-centered text-md-start">
-          <p class="fs-4 px-3 py-4">
-            With Open IT, our goal is to foster transparency and collaboration
-            between organizations, while providing low- or no-cost assistance
-            and training to non-profits and small businesses. By doing so, we
-            can actively reduce barriers between the people trying to make a
-            difference and the tools they need to succeed.
-          </p>
-        </div>
-      </div>
-      <div class="container px-2 py-4 p-md-5 my-3">
-        <div class="p-5 text-center rounded-3 text-bg-black">
-          <p class="col-lg-8 mx-auto fs-5 py-5">
-            Reach out for more information by clicking the button below, or
-            checkout the FOSS and other resource pages to learn about Free and
-            Open Source Software.
-          </p>
-          <div class="d-inline-flex gap-3 mb-5">
-            <a
-              href="mailto:nn21@neighborhoodnerd21.com"
-              class="d-inline-flex align-items-center btn btn-primary btn-lg px-md-4 rounded-pill">
-              Get Help
-            </a>
-            <a
-              href="./pages/opensource.html"
-              class="btn btn-outline-secondary btn-lg px-md-4 rounded-pill">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
     <!-- FOOTER BLOCK -->
     <footer class="d-flex flex-column align-items-center px-4 py-5">
