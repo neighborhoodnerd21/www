@@ -148,6 +148,67 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* text gradient start */
+
+/* Safe Fallback: Readable default color */
+.gradient-text {
+  color: #1e90ff;
+}
+
+.gradient-text-noanimate {
+  color: #1e90ff;
+}
+
+/* Enhancements for modern browsers */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .gradient-text {
+    background-image: linear-gradient(90deg, #0041c2, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .gradient-text-noanimate {
+    background-image: linear-gradient(90deg, #0041c2, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .gradient-text:hover {
+    background-image: linear-gradient(
+      90deg,
+      #151b54,
+      #0041c2,
+      #1e90ff,
+      #151b54
+    );
+
+    background-size: 200% auto;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+    animation: textShimmer 3s linear infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes textShimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* text gradient end */
+
 @media screen and (min-width: 768px) {
   body {
     background: linear-gradient(
