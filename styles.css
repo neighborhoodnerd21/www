@@ -86,7 +86,7 @@ h1 {
 }
 
 #banner {
-  background-image: url("./public/images/banner-sm.png");
+  background-image: url("./public/images/banner-sm.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@ h1 {
   }
 
   #banner {
-    background-image: url("./public/images/banner.png");
+    background-image: url("./public/images/banner.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
