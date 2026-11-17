@@ -116,7 +116,7 @@ h1 {
 }
 
 #foss-hero {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: var(--cobalt-trans);
 }
 
 .card-text-box {
@@ -232,7 +232,7 @@ h1 {
   }
 
   .ang {
-      color: #0dcaf0;
+    color: #0dcaf0;
   }
 
   #banner {
