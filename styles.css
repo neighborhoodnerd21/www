@@ -1,6 +1,7 @@
 :root {
   --cobalt: rgb(46, 55, 254);
   --cobalt-trans: rgba(46, 55, 254, 0.3);
+  --cobalt-trans-80: rgba(46, 55, 254, 0.8);
 }
 
 .vt323-regular {
@@ -107,7 +108,7 @@ h1 {
 }
 
 #profile {
-  background-color: var(--cobalt-trans);
+  background-color: black;
 }
 
 .profile-img {
@@ -116,7 +117,7 @@ h1 {
 }
 
 #foss-hero {
-  background-color: var(--cobalt-trans);
+  background-color: black;
 }
 
 .card-text-box {
@@ -249,7 +250,7 @@ h1 {
 
   .card-bounce:hover {
     transform: translateY(-5px);
-    border: 1px solid var(--cobalt-trans);
+    border: 1px solid var(--cobalt-trans-80);
   }
 }
 
