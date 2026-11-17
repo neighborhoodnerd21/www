@@ -1,6 +1,6 @@
 :root {
   --cobalt: rgb(46, 55, 254);
-  --cobalt-trans: rgba(46, 55, 254, 0.5);
+  --cobalt-trans: rgba(46, 55, 254, 0.3);
 }
 
 .vt323-regular {
@@ -106,7 +106,7 @@ h1 {
 }
 
 #profile {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: var(--cobalt-trans);
 }
 
 .profile-img {
