@@ -1,22 +1,76 @@
-<svg xmlns="http://w3.org" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Black rounded square background -->
-  <rect width="100" height="100" rx="20" fill="#141413" />
-
-  <!-- Open-roof house structure (White) -->
-  <g fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="butt" stroke-linejoin="miter">
-    <!-- Left roof slope with overhang -->
-    <polyline points="16,52 45,27" />
-    <!-- Right roof slope with overhang -->
-    <polyline points="55,27 84,52" />
-    <!-- House walls and base -->
-    <polyline points="25,44 25,80 75,80 75,44" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   width="100"
+   height="100"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="8.27"
+     inkscape:cx="49.939541"
+     inkscape:cy="50"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <rect
+     width="100"
+     height="100"
+     rx="20"
+     fill="#141413"
+     id="rect1" />
+  <g
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="6.5"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g3"
+     transform="translate(0.36275695,-4.7158404)">
+    <polyline
+       points="16,52 45,27"
+       id="polyline1" />
+    <polyline
+       points="55,27 84,52"
+       id="polyline2" />
+    <polyline
+       points="25,44 25,80 75,80 75,44"
+       id="polyline3" />
   </g>
-
-  <!-- Terminal cursor ">_" (Mint Green) -->
-  <g fill="none" stroke="#18c98e" stroke-width="5.5" stroke-linecap="butt" stroke-linejoin="miter">
-    <!-- Chevron ">" -->
-    <polyline points="38,51 46,59 38,67" />
-    <!-- Underscore "_" -->
-    <line x1="50" y1="67" x2="63" y2="67" />
+  <g
+     fill="none"
+     stroke="#18c98e"
+     stroke-width="5.5"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     id="g4"
+     transform="translate(0.24183797,-6.5296252)">
+    <polyline
+       points="38,51 46,59 38,67"
+       id="polyline4" />
+    <line
+       x1="50"
+       y1="67"
+       x2="63"
+       y2="67"
+       id="line4" />
   </g>
 </svg>
