@@ -23,7 +23,7 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:zoom="8.27"
-     inkscape:cx="49.939541"
+     inkscape:cx="50.060459"
      inkscape:cy="50"
      inkscape:window-width="1920"
      inkscape:window-height="1014"
@@ -36,7 +36,8 @@
      height="100"
      rx="20"
      fill="#141413"
-     id="rect1" />
+     id="rect1"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="none"
      stroke="#ffffff"
