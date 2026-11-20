@@ -6,11 +6,16 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="favicon.svg"
-   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title6">NN21 Logo</title>
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -22,15 +27,52 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="8.27"
-     inkscape:cx="50.060459"
-     inkscape:cy="50"
-     inkscape:window-width="1920"
-     inkscape:window-height="1014"
+     inkscape:zoom="5.46"
+     inkscape:cx="47.619048"
+     inkscape:cy="45.238095"
+     inkscape:window-width="1489"
+     inkscape:window-height="829"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4"
+     showgrid="true"
+     showguides="false">
+    <sodipodi:guide
+       position="107.32601,83.699634"
+       orientation="0,100"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="83.516484,101.4652"
+       orientation="100,0"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="108.24176,15.934066"
+       orientation="0,-100"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="18.315018,102.5641"
+       orientation="-100,0"
+       id="guide6"
+       inkscape:locked="false" />
+    <inkscape:grid
+       id="grid6"
+       units="px"
+       originx="50"
+       originy="50"
+       spacingx="96"
+       spacingy="96"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
   <rect
      width="100"
      height="100"
@@ -38,40 +80,36 @@
      fill="#141413"
      id="rect1"
      style="fill:#000000;fill-opacity:1" />
-  <g
-     fill="none"
-     stroke="#ffffff"
-     stroke-width="6.5"
-     stroke-linecap="butt"
-     stroke-linejoin="miter"
-     id="g3"
-     transform="translate(0.36275695,-4.7158404)">
-    <polyline
-       points="16,52 45,27"
-       id="polyline1" />
-    <polyline
-       points="55,27 84,52"
-       id="polyline2" />
-    <polyline
-       points="25,44 25,80 75,80 75,44"
-       id="polyline3" />
-  </g>
-  <g
-     fill="none"
-     stroke="#18c98e"
-     stroke-width="5.5"
-     stroke-linecap="butt"
-     stroke-linejoin="miter"
-     id="g4"
-     transform="translate(0.24183797,-6.5296252)">
-    <polyline
-       points="38,51 46,59 38,67"
-       id="polyline4" />
-    <line
-       x1="50"
-       y1="67"
-       x2="63"
-       y2="67"
-       id="line4" />
-  </g>
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>NN21 Logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 64.691054,69.622574 H 15.022123 q 0.853558,-7.356855 5.161992,-13.819506 4.34908,-6.503298 16.258243,-15.323394 7.275563,-5.405866 9.307844,-8.210413 2.03228,-2.804547 2.03228,-5.324574 0,-2.723256 -2.03228,-4.633599 -1.991635,-1.95099 -5.040056,-1.95099 -3.170357,0 -5.202637,1.991635 -1.991635,1.991635 -2.68261,7.03169 L 16.241491,28.042118 q 0.975495,-6.991044 3.576813,-10.893023 2.601319,-3.942623 7.31621,-6.015549 4.755536,-2.1135719 13.128531,-2.1135719 8.738805,0 13.575632,1.9916349 4.877473,1.991635 7.641374,6.137486 2.804547,4.105207 2.804547,9.226553 0,5.446512 -3.211003,10.405276 -3.170357,4.958764 -11.583998,10.893022 -4.999409,3.454877 -6.706525,4.836827 -1.66647,1.381951 -3.942624,3.617459 H 64.691054 Z M 109.27929,9.0199741 V 69.622574 H 92.533296 V 29.911816 q -4.06456,3.089066 -7.885247,4.99941 -3.780042,1.910343 -9.511072,3.658104 V 24.993698 q 8.454286,-2.723256 13.128531,-6.543943 4.674244,-3.820687 7.316209,-9.4297809 z"
+     id="text1"
+     style="font-weight:900;font-size:83.2422px;line-height:0px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black,  Heavy';fill:#ffffff;fill-opacity:0.995745;stroke:#000000;stroke-width:0;stroke-linejoin:bevel;paint-order:stroke fill markers"
+     transform="scale(0.79693767,1.2548033)"
+     aria-label="21" />
 </svg>
