@@ -108,7 +108,15 @@ h1 {
 }
 
 #profile {
-  background-color: black;
+    background:
+      repeating-linear-gradient(
+        135deg,
+        transparent,
+        transparent 18px,
+        rgba(46, 55, 254, 0.15) 19px,
+        rgba(46, 55, 254, 0.15) 20px
+      ),
+      linear-gradient(135deg, #000000 0%, #001338 100%);
 }
 
 .profile-img {
@@ -246,6 +254,18 @@ h1 {
 
   .text-justify {
     text-align: justify;
+  }
+
+  .pinstripe-gradient {
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 18px,
+        rgba(46, 55, 254, 0.3) 18px,
+        rgba(46, 55, 254, 0.3) 20px
+      ),
+      linear-gradient(135deg, #000000 0%, #001338 100%);
   }
 
   .card-bounce:hover {
