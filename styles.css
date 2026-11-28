@@ -95,7 +95,15 @@ h1 {
 }
 
 #hero {
-  background-color: rgba(0, 0, 0, 0.9);
+    background:
+      repeating-linear-gradient(
+        135deg,
+        transparent,
+        transparent 18px,
+        rgba(46, 55, 254, 0.15) 19px,
+        rgba(46, 55, 254, 0.15) 20px
+      ),
+      linear-gradient(135deg, #000000 0%, #001338 100%);
 }
 
 #hero img {
@@ -125,7 +133,15 @@ h1 {
 }
 
 #foss-hero {
-  background-color: black;
+    background:
+      repeating-linear-gradient(
+        135deg,
+        transparent,
+        transparent 18px,
+        rgba(46, 55, 254, 0.15) 19px,
+        rgba(46, 55, 254, 0.15) 20px
+      ),
+      linear-gradient(135deg, #000000 0%, #001338 100%);
 }
 
 .card-text-box {
